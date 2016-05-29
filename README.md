@@ -2,6 +2,7 @@ watanany.rbenv
 =========
 
 This role install rbenv in system-wide by creating `rbenv` group and adding user(rbenv_user) to the group.
+
 The member in rbenv group can use rbenv without sudo.
 
 After installation with ansible, you need to login again to enable unix group.
@@ -15,11 +16,9 @@ git
 Role Variables
 --------------
 
-defaults/main.yml
-	rbenv_user: who is added `rbenv` group (default is /usr/local/rbenv)
+rbenv_user: who is added `rbenv` group (default is /usr/local/rbenv)
 
-vars/main.yml
-	rbenv_root: where rbenv will be installed (default is root)
+rbenv_root: where rbenv will be installed (default is root)
 
 Dependencies
 ------------
