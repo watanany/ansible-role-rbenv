@@ -16,9 +16,9 @@ git
 Role Variables
 --------------
 
-rbenv_user: who is added `rbenv` group (default is /usr/local/rbenv)
+rbenv_user: who is added `rbenv` group (default is root)
 
-rbenv_root: where rbenv will be installed (default is root)
+rbenv_root: where rbenv will be installed (default is /usr/local/rbenv)
 
 Dependencies
 ------------
